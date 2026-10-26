@@ -1,0 +1,22 @@
+# --- Secrets: never commit ---------------------------------------------------
+# .env holds N8N_ENCRYPTION_KEY. Losing or leaking it = losing or leaking every
+# credential stored in n8n.
+.env
+.env.*
+!.env.example
+
+# --- Runtime data: never commit ----------------------------------------------
+# SQLite DB, a copy of the encryption key (data/n8n/config), binary files,
+# files written by workflows.
+data/
+
+# --- Backups (contain the DB and, if you include .env, the key) --------------
+backups/
+*.zip
+*.tar.gz
+
+# --- OS / editor noise --------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
