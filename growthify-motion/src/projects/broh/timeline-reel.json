@@ -1,0 +1,57 @@
+{
+  "fps": 30,
+  "frames": 1200,
+  "scenes": {
+    "hook": {
+      "from": 0, "dur": 84,
+      "ev": { "l1": 2, "l2": 16, "l3": 30, "hl": 46, "wipe": 77 },
+      "sfx": [["l1", "tick"], ["l2", "tick"], ["l3", "tick"], ["hl", "swish"], ["wipe", "whoosh"]]
+    },
+    "intro": {
+      "from": 84, "dur": 82,
+      "ev": { "label": 6, "card": 10, "pill": 22, "line": 28, "out": 74 },
+      "sfx": [["card", "pop"], ["pill", "tick"], ["out", "whoosh"]],
+      "typing": [["label", "GROWTHIFY BUILDS", "intro"]]
+    },
+    "problem": {
+      "from": 158, "dur": 120,
+      "ev": { "head": 8, "c1": 36, "c2": 46, "c3": 56, "out": 112 },
+      "sfx": [["head", "thud"], ["c1", "tick"], ["c2", "tick"], ["c3", "tick"], ["out", "whoosh"]]
+    },
+    "build": {
+      "from": 270, "dur": 576,
+      "ev": {
+        "urlType": 16, "slideSwap": 50,
+        "cap2": 80, "scroll1": 92, "scroll1End": 116, "scroll2": 128, "scroll2End": 154, "zoom": 156, "tagOffers": 166,
+        "swap": 192, "cap3": 200, "mscroll": 214, "mscrollEnd": 242,
+        "cap4": 272, "tapCard": 286, "modalUp": 290, "tapDouble": 318, "tapAdd": 344, "modalDown": 347,
+        "cap5": 383, "tapViewCart": 398, "cartIn": 402, "tagUpsell": 416, "tagSave": 434,
+        "phoneMove": 462, "cap6": 470, "tapCheckout": 480, "checkoutIn": 484, "ckScroll": 504, "ckScrollEnd": 526, "tapPlace": 536, "toast": 541
+      },
+      "sfx": [
+        ["slideSwap", "swish", -6], ["scroll1", "whoosh-soft"], ["scroll2", "whoosh-soft"], ["zoom", "whoosh-soft"], ["tagOffers", "pop"],
+        ["swap", "whoosh"], ["mscroll", "whoosh-soft"],
+        ["tapCard", "click"], ["modalUp", "swish", -4], ["tapDouble", "click"], ["tapAdd", "click"], ["modalDown", "pop"],
+        ["tapViewCart", "click"], ["cartIn", "swish", -4], ["tagUpsell", "pop"], ["tagSave", "pop"],
+        ["tapCheckout", "click"], ["checkoutIn", "swish", -4], ["ckScroll", "whoosh-soft"], ["tapPlace", "click"], ["toast", "ding"]
+      ],
+      "typing": [["urlType", "broh.pk", "url"]]
+    },
+    "included": {
+      "from": 846, "dur": 144,
+      "ev": { "wipe": -7, "head": 8, "chip0": 28, "chip1": 36, "chip2": 44, "chip3": 52, "chip4": 60, "out": 134 },
+      "sfx": [["wipe", "whoosh"], ["head", "swish", -3], ["chip0", "pop"], ["chip1", "pop"], ["chip2", "pop"], ["chip3", "pop"], ["chip4", "pop"]]
+    },
+    "live": {
+      "from": 990, "dur": 102,
+      "ev": { "head": 4, "urlType": 22, "cursor": 38, "click": 62, "riser": 78 },
+      "sfx": [["head", "thud"], ["click", "click"], ["riser", "riser"]],
+      "typing": [["urlType", "broh.pk", "live"]]
+    },
+    "end": {
+      "from": 1092, "dur": 108,
+      "ev": { "wipe": -7, "logo": 2, "head": 10, "loop": 94 },
+      "sfx": [["wipe", "whoosh"], ["logo", "pop"], ["loop", "whoosh-soft"]]
+    }
+  }
+}

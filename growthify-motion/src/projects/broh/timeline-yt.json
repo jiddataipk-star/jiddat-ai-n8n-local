@@ -1,0 +1,64 @@
+{
+  "fps": 30,
+  "frames": 2160,
+  "scenes": {
+    "hook": {
+      "from": 0, "dur": 105,
+      "ev": { "l1": 3, "l2": 18, "l3": 33, "hl": 50, "wipe": 98 },
+      "sfx": [["l1", "tick"], ["l2", "tick"], ["l3", "tick"], ["hl", "swish"], ["wipe", "whoosh"]]
+    },
+    "intro": {
+      "from": 105, "dur": 108,
+      "ev": { "label": 6, "card": 10, "pill": 22, "line": 30, "out": 100 },
+      "sfx": [["card", "pop"], ["pill", "tick"], ["out", "whoosh"]],
+      "typing": [["label", "GROWTHIFY BUILDS", "intro"]]
+    },
+    "problem": {
+      "from": 205, "dur": 158,
+      "ev": { "head": 10, "c1": 40, "c2": 52, "c3": 64, "out": 150 },
+      "sfx": [["head", "thud"], ["c1", "tick"], ["c2", "tick"], ["c3", "tick"], ["out", "whoosh"]]
+    },
+    "build": {
+      "from": 355, "dur": 1325,
+      "ev": {
+        "urlType": 16, "slideSwap": 70,
+        "pB": 150, "clickTab": 196, "scrollB": 200, "scrollBEnd": 236, "tagOffers": 250,
+        "pC": 300, "scrollC": 304, "scrollCEnd": 330, "clickSearch": 346, "type": 352,
+        "pD": 420, "clickCard": 456, "modalIn": 458, "clickDouble": 500, "clickAdd": 540, "added": 544,
+        "pE": 600, "clean": 640, "tagViewCart": 650,
+        "pF": 705, "clickViewCart": 722, "cartIn": 726, "tagUpsell": 756, "tagSave": 786,
+        "pG": 855, "clickDropdown": 900, "listIn": 902, "clickArea": 948, "selected": 950, "tagToggle": 968,
+        "pH": 1005, "clickPlace": 1080, "toast": 1086,
+        "pI": 1170, "mScroll": 1215, "mScrollMid": 1250, "mScroll2": 1268, "mScrollEnd": 1300
+      },
+      "sfx": [
+        ["slideSwap", "swish", -6],
+        ["clickTab", "click"], ["scrollB", "whoosh-soft"], ["tagOffers", "pop"],
+        ["scrollC", "whoosh-soft"], ["clickSearch", "click"],
+        ["clickCard", "click"], ["modalIn", "swish", -4], ["clickDouble", "click"], ["clickAdd", "click"], ["added", "pop"],
+        ["tagViewCart", "pop"],
+        ["clickViewCart", "click"], ["cartIn", "swish", -4], ["tagUpsell", "pop"], ["tagSave", "pop"],
+        ["clickDropdown", "click"], ["clickArea", "click"], ["tagToggle", "pop"],
+        ["clickPlace", "click"], ["toast", "ding"],
+        ["pI", "whoosh"], ["mScroll", "whoosh-soft"], ["mScroll2", "whoosh-soft"]
+      ],
+      "typing": [["urlType", "broh.pk", "url"], ["type", "smash", "search"]]
+    },
+    "included": {
+      "from": 1680, "dur": 180,
+      "ev": { "wipe": -7, "head": 8, "chip0": 30, "chip1": 38, "chip2": 46, "chip3": 54, "chip4": 62, "out": 170 },
+      "sfx": [["wipe", "whoosh"], ["head", "swish", -3], ["chip0", "pop"], ["chip1", "pop"], ["chip2", "pop"], ["chip3", "pop"], ["chip4", "pop"]]
+    },
+    "live": {
+      "from": 1860, "dur": 120,
+      "ev": { "head": 4, "urlType": 24, "cursor": 44, "click": 70, "riser": 97 },
+      "sfx": [["head", "thud"], ["click", "click"], ["riser", "riser"]],
+      "typing": [["urlType", "broh.pk", "live"]]
+    },
+    "end": {
+      "from": 1980, "dur": 180,
+      "ev": { "wipe": -7, "logo": 2, "head": 10, "loop": 166 },
+      "sfx": [["wipe", "whoosh"], ["logo", "pop"], ["loop", "whoosh-soft"]]
+    }
+  }
+}

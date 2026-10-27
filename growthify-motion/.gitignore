@@ -1,0 +1,5 @@
+node_modules/
+out/
+deliverables/**/*.mp4
+deliverables/**/*.zip
+*.log
